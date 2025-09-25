@@ -17,6 +17,7 @@ import { NgchildComponent } from './on-change/ngchild/ngchild.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './parent/child/child.component';
 import { FirstComponent } from './first/first.component';
+import { ThirdComponent } from './third/third.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { FirstComponent } from './first/first.component';
     ParentComponent,
     ChildComponent,
     FirstComponent,
+    ThirdComponent,
   ],
   imports: [
     BrowserModule,
