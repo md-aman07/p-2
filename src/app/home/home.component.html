@@ -1,0 +1,18 @@
+<hr>
+<button class="btn btn-primary d-block mx-auto" (click)="Ontodo()"> todo</button>
+
+<hr>
+<h1 style="text-align: center;">home component</h1>
+ <app-child1
+ [value]="value"
+ [age]="person.age"
+ (childMessage)="recevingMessage($event)"
+ (numberC)="receiving_number($event)"
+ ></app-child1>
+ <h2>Message from child: {{ msg1 }}</h2>
+  <h2>Message from child: {{ num }}</h2>
+
+
+ <hr>
+<h3 style="text-align: center;">this is gap line between two component</h3>
+ <hr>

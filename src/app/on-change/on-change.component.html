@@ -1,0 +1,11 @@
+<h1 style="text-align: center;">ngONchange</h1>
+<div style="text-align: center;">
+<input [(ngModel)]="data" placeholder="Enter text" />
+</div>
+<div style="text-align: center;">
+  <input [(ngModel)]="value" placeholder="Enter text" />
+</div>
+<app-ngchild
+[data]="data"
+[value]="value"
+></app-ngchild>
